@@ -1,0 +1,47 @@
+---
+---
+
+@import "minima";
+
+body {
+    font-family: Courier New, monospace;
+}
+
+.site-header {
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 24px;
+
+    .site-title {
+        float: none;
+    }
+
+    .site-nav {
+        float: none;
+        line-height: 36px;
+    }
+
+    .about {
+        margin: 18px 0 0;
+    }
+}
+
+.post-list {
+    li {
+        .post-link {
+            color: #000;
+            font-size: 1em;
+        }
+    }
+}
+
+.rss-subscribe {
+    margin-top: 48px;
+    font-size: 1em;
+}
+
+.post-header {
+    .post-title {
+        font-size: 28px;
+    }
+}
