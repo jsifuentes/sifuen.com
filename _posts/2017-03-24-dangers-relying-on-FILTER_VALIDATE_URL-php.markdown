@@ -3,7 +3,7 @@ layout: post
 title:  "The dangers of only relying on FILTER_VALIDATE_URL when downloading URLs"
 date:   2018-03-24 10:29:00 -0500
 categories: php security
-permalink: /php/the-dangers-of-only-relying-on-filter_validate_url-when-downloading-urls
+permalink: /php/the-dangers-of-only-relying-on-filter_validate_url-when-downloading-urls/
 ---
 If you have ever wanted to download a file from an external website from your PHP application, you likely used <a href="http://php.net/file_get_contents" target="_blank">file_get_contents</a> or <a href="http://php.net/manual/en/curl.examples-basic.php" target="_blank">cURL</a>.
 

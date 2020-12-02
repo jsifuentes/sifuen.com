@@ -3,7 +3,7 @@ layout: post
 title:  "How to hide the \"Please upgrade your database\" exception message"
 date:   2018-10-04 12:31:00 -0500
 categories: magento-2
-permalink: /magento-2/how-to-hide-the-please-upgrade-your-database-exception-message
+permalink: /magento-2/how-to-hide-the-please-upgrade-your-database-exception-message/
 ---
 I find myself switching between development branches all the time. Since modules are sometimes updated in other branches, I'll always find that dreaded message on my screen.
 

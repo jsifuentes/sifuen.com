@@ -3,7 +3,7 @@ layout: post
 title:  "How Magento 2 calculates totals with reward points"
 date:   2018-08-04 16:28:00 -0500
 categories: magento-2
-permalink: magento-2/how-magento-2-calculates-totals-with-reward-points
+permalink: magento-2/how-magento-2-calculates-totals-with-reward-points/
 ---
 <em>* Note: Magento Rewards is an Enterprise module. Community Magento installations will not contain this module.</em>
 

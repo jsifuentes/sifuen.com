@@ -3,7 +3,7 @@ layout: post
 title:  "Using your Google account to sign-in to your Magento backend"
 date:   2019-07-20 12:31:00 -0500
 categories: magento-2
-permalink: /magento-2/using-google-account-sign-in-magento-backend
+permalink: /magento-2/using-google-account-sign-in-magento-backend/
 ---
 I work at a digital agency with 50-ish employees. People shift between projects pretty often, and we'll end up getting someone assigned on a Magento project who needs access to the backend. The whole process just gets repetitive having to create admin accounts to multiple people, so to offset that work, I created a module that allows users to login to the Magento backend using their Google account.
 
