@@ -20,6 +20,7 @@
 
 title: Jacob Sifuentes
 email: jacob@sifuen.com
+tagline: "Software Engineer"
 description: >- # this means to ignore newlines until "baseurl:"
   Jacob Sifuentes is a software engineer living in Atlanta, GA. He is Magento certified and sometimes writes things here.
 baseurl: "" # the subpath of your site, e.g. /blog
