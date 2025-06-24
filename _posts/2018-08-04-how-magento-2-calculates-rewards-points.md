@@ -170,5 +170,4 @@ This is where the magic happens. As you can see on line 24, the same `reward_ins
 
 Starting on line 38, it checks to see if the amount of reward points the customer has in their balance is more than the grand total of the order. If it is, line 39 sets `$pointsBalanceUsed` to the points equivalent of the order grand total. If the reward points balance is less than the grand total of the order, `$pointsBalanceUsed` is set to the points equivalent of the remainder of reward points currency. That last sentence sounds confusing, but you can see on line 37 that `$baseRewardCurrencyAmountLeft` is set to the customer's reward points balance in currency form minus the amount of reward point currency already used in the quote, so either way the if statement on line 39 goes, `$pointsBalanceUsed` will always be set the maximum amount possible to cover the order grand total. Finally, `$total->setGrandTotal()` and `$total->setBaseGrandTotal()` are both called to subtract the amount of reward points redeemed from the original grand total.
 
-
-This blog post is the first of a series of blog posts I hope to make in the future about Magento 2. Thanks for reading, and I hope this helps someone who wants to learn more about how Magento 2 works under the hood.
+Hope this helps someone who wants to learn more about how Magento 2 works under the hood.

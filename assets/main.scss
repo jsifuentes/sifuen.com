@@ -4,7 +4,8 @@
 @import "minima";
 
 body {
-    font-family: Courier New, monospace;
+    // font-family: Courier New, monospace;
+    font-family: Trebuchet MS !important;
 }
 
 .site-header {
@@ -14,15 +15,22 @@ body {
 
     .site-title {
         float: none;
+        line-height: unset;
     }
 
     .site-nav {
         float: none;
-        line-height: 36px;
+        line-height: unset;
+
+        .neat {
+            letter-spacing: -5px;
+            margin-right: 2px;
+        }
     }
 
     .about {
-        margin: 18px 0 0;
+        margin: 0 0 18px;
+        font-size: 0.8em;
     }
 }
 
@@ -41,7 +49,51 @@ body {
 }
 
 .post-header {
+    margin-bottom: 16px;
+
     .post-title {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    h1, h2, h3, h4, h5, h6 {
+        padding-top: 24px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
         font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}
+
+.site-footer {
+    padding: 12px 0;
+    color: #828282;
+
+    .footer-col {
+        margin-bottom: 0;
+        ul {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.flex {
+    display: flex;
+
+    .left {
+        flex: 1;
+    }
+
+    .right {
+        flex-grow: 0;
     }
 }

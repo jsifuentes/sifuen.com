@@ -13,5 +13,5 @@ Assuming you're in an agency environment, one concern with using a module like t
 
 There's also the scenario that an employee is no longer with the company. What happens to this user's account? Since Magento requires that you have a user record in the database, there's nothing in place to actually delete these employee accounts as they are terminated, but one protection mechanism in the module is the ability to disable password authentication for any account that is auto-registered using Google SSO.
 
-If you have any concerns using this module or any good ideas on what could make this module better, please feel free to go to the Github repository and open an issue. I hope someone finds this module useful!
+Hope someone finds this module useful.
 

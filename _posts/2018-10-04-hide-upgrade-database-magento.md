@@ -18,10 +18,10 @@ So I made a module to suppress the exception so that I can keep working on my lo
 
 I also didn't want to be completely in the dark about whether my modules were out of date, so I moved the exception message to show in the system messages tray in the backend.
 
-<img src="https://i.imgur.com/9PECODm.png" alt="Exception message showing in the system messages tray in the backend." />
+<img src="/assets/images/hide-upgrade-database-magento/out-of-date-message.png" alt="Exception message showing in the system messages tray in the backend." />
 
 You can visit a page to see a list of out of date modules.
 
-<img src="https://i.imgur.com/LNqbhhQ.png" alt="Out of date modules list page" />
+<img src="/assets/images/hide-upgrade-database-magento/list-page.png" alt="Out of date modules list page" />
 
-Hope someone finds this module useful!
+Hope someone finds this module useful.

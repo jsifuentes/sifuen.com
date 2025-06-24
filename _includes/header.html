@@ -3,6 +3,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="about">{{ site.tagline }}</div>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -18,7 +19,7 @@
         <div class="trigger">
           {%- for path in site.header_links -%}
             {%- if path.title -%}
-            <a class="page-link" href="{{ path.url | relative_url }}">// {{ path.title | escape | downcase }}</a>
+            <a class="page-link" href="{{ path.url | relative_url }}"><span class="neat">//</span> {{ path.title | escape | downcase }}</a>
             {%- endif -%}
           {%- endfor -%}
           {%- for path in page_paths -%}
@@ -30,7 +31,5 @@
         </div>
       </nav>
     {%- endif -%}
-
-    <div class="about">I am a software developer living in Washington, DC.</div>
   </div>
 </header>
